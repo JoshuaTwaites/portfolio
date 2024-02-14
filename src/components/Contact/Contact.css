@@ -1,0 +1,68 @@
+@import '../../vars.css';
+
+.contact-container {
+    color: var(--color-text);
+    margin-top: 7.5rem;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 3.6rem 10%;
+    gap: 0.6rem;
+}
+
+.contact-text h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.contact-text p {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 1.6rem;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contact-link a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+
+    .contact-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-links{
+        align-items: center;
+    }
+
+    .contact-link a {
+        font-size: 1.2rem;
+    }
+}

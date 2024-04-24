@@ -23,6 +23,15 @@ export const projects = [
         'source': 'https://github.com/JoshuaTwaites/gym-website',
     },
 
+    
+    {
+        'title': 'Luxury Drink Website',
+        'imageSrc': require("../assets/images/luxury.png"),
+        'discription': 'A recreation of a luxury food/drink website from a figma design. Utilises a design theme throughout that screams luxury.',
+        'demo': 'https://main--luxurydrinkservice.netlify.app/',
+        'source': 'https://github.com/JoshuaTwaites/LuxuryWebsite',
+    },
+
     {
         'title': 'Ecommerce Site',
         'imageSrc': require("../assets/images/ecom.png"),
